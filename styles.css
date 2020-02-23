@@ -1,0 +1,86 @@
+header {
+    padding: 40px;
+    background: black;
+    color: beige;
+}
+body {
+    background: beige;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: beige;
+}
+.my-name {
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    border-color: beige;
+    font-size: 40px;
+    padding: 40px;
+    margin: auto;
+}
+section.contact-info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+section.contact-info div {
+    margin: auto;  
+    padding-right: 20px;
+    white-space: nowrap;
+}
+section.about-top {
+    display: flex;
+    flex-direction: row;
+}
+section.about-bottom {
+    display: flex;
+    flex-direction: row;
+}
+section.about-top div {
+    margin: auto;
+    margin-bottom: 20px;
+    min-width: 620px;
+    max-width: 620px;
+    height: 200px;
+}
+section.about-bottom div {
+    margin: auto;
+    min-width: 620px;
+    max-width: 620px;
+    height: 850px;
+}
+
+a:hover .a {
+    display: none;
+    
+  }
+  a .b {
+    display: none;
+    
+  }
+  a .c {
+    display: none;
+    
+  }
+  a:hover .b {
+    display: inline;
+    
+  }
+  a:focus .c {
+      display: inline;
+      
+  }
+  a:focus .b {
+      display: none;
+      
+  }
+  a:focus .a {
+      display: none;
+      
+  }
+  
