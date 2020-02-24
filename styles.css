@@ -14,16 +14,17 @@ a {
     text-decoration: none;
     color: beige;
 }
+
 .my-name {
     display: flex;
     justify-content: center;
     border: solid 2px;
     border-color: beige;
-    font-size: 40px;
-    padding: 40px;
+    font-size: 30px;
+    padding: 3px;
     margin: auto;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 260px;
+    max-width: 260px;
     background: black; /* bg-color */
     box-shadow: 0 0 20px 5px rgba(254,254,254,0.7); /* shadow-props */
 
@@ -122,6 +123,9 @@ a:hover .a {
   a:hover .b {
     display: inline;
   }
+  div.my-name:hover {
+      background: grey;
+  }
   a:focus .c {
       display: inline;  
   }
@@ -131,4 +135,3 @@ a:hover .a {
   a:focus .a {
       display: none;    
   }
-  
